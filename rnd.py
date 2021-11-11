@@ -13,5 +13,4 @@ def make_rnd(n):
     rnd = np.random.random(n).astype(np.float32)
     del rnd
     
-if __name__ == '__main__':
-    make_rnd(1_000_000)
+make_rnd(1_000_000)
